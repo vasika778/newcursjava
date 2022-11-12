@@ -1,4 +1,4 @@
-const numberOfil = promt('Сколько фильмов вы уже просмотрели?', '');
+const numberOfil = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
 const personalMoviDB = {
 
@@ -18,3 +18,5 @@ const a = prompt('Один из последних просмотреных фи
 
 personalMoviDB.movis[a]=b;
 personalMoviDB.movis[c]=d;
+
+console.log(personalMoviDB);
